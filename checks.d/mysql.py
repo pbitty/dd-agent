@@ -19,7 +19,7 @@ STATUS_VARS = {
     'Connections': ('mysql.net.connections', RATE),
     'Max_used_connections': ('mysql.net.max_connections', GAUGE),
     'Open_files': ('mysql.performance.open_files', GAUGE),
-    'Table_locks_waited': ('mysql.performance.table_locks_waited', GAUGE),
+    'Table_locks_waited': ('mysql.performance.table_locks_waited', RATE),
     'Threads_connected': ('mysql.performance.threads_connected', GAUGE),
     'Innodb_data_reads': ('mysql.innodb.data_reads', RATE),
     'Innodb_data_writes': ('mysql.innodb.data_writes', RATE),
